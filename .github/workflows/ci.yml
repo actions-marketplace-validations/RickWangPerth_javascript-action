@@ -58,5 +58,5 @@ jobs:
           title: Test Issue
           body: Test issue body
           assignees: |
-            Rick
+            RickWangPerh
       - run: echo ${{ steps.issue.outputs.issue }}
