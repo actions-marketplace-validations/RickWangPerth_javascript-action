@@ -18,6 +18,7 @@ async function run() {
     const response = await octokit.rest.issues.create({
       // owner: github.context.repo.owner,
       // repo: github.context.repo.repo,
+      // same as the above two lines
       ...github.context.repo,
       title,
       body,
