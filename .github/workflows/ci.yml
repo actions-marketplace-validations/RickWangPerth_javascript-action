@@ -57,6 +57,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: Test Issue
           body: Test issue body
-          assignees: |
-            RickWangPerh
       - run: echo ${{ steps.issue.outputs.issue }}
